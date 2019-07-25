@@ -152,7 +152,7 @@
     // test if any major diagonals on this board contain conflicts
     hasAnyMajorDiagonalConflicts: function() {
       var colNum = this.rows().length;
-      for (var i = 1-colNum; i < colNum; i++) {
+      for (var i = 2-colNum; i < colNum; i++) {
         if (this.hasMajorDiagonalConflictAt(i)) { return true;  }
       }
       return false;

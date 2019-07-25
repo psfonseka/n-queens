@@ -76,6 +76,13 @@ describe('solvers', function() {
       });
     });
 
+    /*it('bitwise solution calculates for n = 8', function() {
+      var bitwise = Bitwise();
+      var solutionCount = bitwise.find8Queens();
+      expect(solutionCount).to.be.equal(92);
+    });*/
+
   });
+
 
 });

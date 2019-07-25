@@ -53,15 +53,11 @@ find8Queens = () => {
           helper(col,ld,rd,row+1,1);
         }
       }
-      //helper(col,ld,rd,row+1,q);
     }
-    //console.log(col, ld, rd, row);
   };
 
   helper(startCol, leftDiag, rightDiag, 0, 0); //everything starts equal to 0
-  //visualizeBinary(235);
   return solutions;
 };
-
 var result = find8Queens();
 console.log(result);
